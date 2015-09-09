@@ -1,7 +1,7 @@
 
 var expect = require('chai').expect,
     supertest = require('supertest'),
-    api = supertest.agent("http://localhost:8080") //change the host,
+    api = supertest.agent("https://userlocation.herokuapp.com") //change the host
     faker = require('faker');
 
     var lat, lon, email, newEmail;
