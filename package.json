@@ -1,0 +1,21 @@
+{
+  "name": "location",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "body-parser": "latest",
+    "chai": "~1.8.1",
+    "mocha": "^2.2.4",
+    "request": "~2.27.0",
+    "supertest": "^0.15.0",
+    "fs": "latest",
+    "method-override": "latest",
+    "mongoose": "~3.8.0",
+    "mongoose-timestamp": "~0.4.0",
+    "faker": "~3.0.1"
+  }
+}
