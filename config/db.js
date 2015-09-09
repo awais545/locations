@@ -1,3 +1,3 @@
 module.exports = {
-   url: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://localhost/locations'
+    url: 'mongodb://admin:admin@ds033143.mongolab.com:33143/locations'
 }
